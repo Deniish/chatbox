@@ -1,11 +1,11 @@
 const http = require('http');
 const querystring = require('querystring');
 const { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } = require("@google/generative-ai");
-const api = require("./apikey1.js")//Actual Api key is hidden for security reason
+const api = require("AIzaSyBKb2YaJggsH0uOx51eeg3siX69k0y1yp8")//Actual Api key is hidden for security reason
 const hostname = "127.0.0.1";
 const port = 3000;
 
-const genAI = new GoogleGenerativeAI(api.Api_key); // Replace "API_KEY" with your actual API key(Api key is hidden)
+const genAI = new GoogleGenerativeAI(api.AIzaSyBKb2YaJggsH0uOx51eeg3siX69k0y1yp8); // Replace "API_KEY" with your actual API key(Api key is hidden)
 const MODEL_NAME = "gemini-1.5-pro-latest";
 
 const server = http.createServer(async (req, res) => {
