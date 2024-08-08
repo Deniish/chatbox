@@ -1,7 +1,7 @@
 const http = require('http');
 const querystring = require('querystring');
 const { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } = require("@google/generative-ai");
-const api = require("AIzaSyBKb2YaJggsH0uOx51eeg3siX69k0y1yp8")//Actual Api key is hidden for security reason
+// const api = require("AIzaSyBKb2YaJggsH0uOx51eeg3siX69k0y1yp8")//Actual Api key is hidden for security reason
 const hostname = "127.0.0.1";
 const port = 3000;
 
